@@ -77,7 +77,7 @@ class Scatter_Text_Widget(Screen):
                     #Check for the special move (castle and en passant)
                     is_castling = self.board.is_castling(move)
                     king_side_castling = self.board.is_kingside_castling(move)
-                    is_en_passant = self.board.is_en_passant(move)
+ag                    is_en_passant = self.board.is_en_passant(move)
                     
                     #Updates the board
                     #This has to be after checking the special moves
